@@ -21,20 +21,20 @@ public class Input {
       * @throws java.io.IOException
       */
      public static void main(String[] args) throws IOException {
-          Scanner scan = new Scanner(new File("stuff.txt"));
-          
-          // Create an Array
-          String[] stringArr = new String[5];
-          
-          // Take input line-by-line and store it in arr[]
-          stringArr[0] = scan.nextLine();
-          stringArr[1] = scan.nextLine();
-          stringArr[2] = scan.nextLine();
-          stringArr[3] = scan.nextLine();
-          stringArr[4] = scan.nextLine();
-          
-          out.printf("%s %s %s %s %s", stringArr[0], stringArr[1], stringArr[2], stringArr[3], stringArr[4]);
-          
+//          Scanner scan = new Scanner(new File("stuff.txt"));
+//          
+//          // Create an Array
+//          String[] stringArr = new String[5];
+//          
+//          // Take input line-by-line and store it in arr[]
+//          stringArr[0] = scan.nextLine();
+//          stringArr[1] = scan.nextLine();
+//          stringArr[2] = scan.nextLine();
+//          stringArr[3] = scan.nextLine();
+//          stringArr[4] = scan.nextLine();
+//          
+//          out.printf("%s %s %s %s %s", stringArr[0], stringArr[1], stringArr[2], stringArr[3], stringArr[4]);
+            System.out.println("oops");
           
           
           
